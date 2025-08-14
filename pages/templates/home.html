@@ -3,7 +3,7 @@
 {% block content %}
 
     {% for post in posts %}
-        {{ post.title }}
+        <a href="{% url 'detail' post.pk %}">{{ post.title }}</a>
         {{ post.date }}
     {% endfor %}
 
