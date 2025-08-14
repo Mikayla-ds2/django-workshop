@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-pbjshxwb!@sqw7=ljnbs#n97n!2@f1qp709-gjg_m2+yw!qbb@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [] # would use but not using codespaces to host; hosting there is weird
+ALLOWED_HOSTS = ["*"] # would use but not using codespaces to host; hosting there is weird; haha stupiddd still needed to do this
 
 
 # Application definition
